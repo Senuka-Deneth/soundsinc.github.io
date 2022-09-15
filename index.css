@@ -1,0 +1,108 @@
+body {
+    background-color: #272727;
+}
+
+header {
+    text-transform: uppercase;
+    color: #C3073F;
+    padding-top: 5px;
+    padding-left:500px ;
+    font-family: "segoe UI Light";
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.5cm;
+}
+
+img {
+    padding-left: 590px;
+    padding-top: 100px;
+}
+
+.navbar{
+    overflow : hidden ;
+    background-color : #C3073F ;
+    font-family : "Segoe UI Light" ;
+    font-weight : 50 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar a {
+    float : left ;
+    font-size : 20px ;
+    color : azure ;
+    text-align : center ;
+    padding : 14px 16px ;
+    text-decoration : none ;
+    font-weight: 50;
+}
+
+.dropdown {
+    float: left ;
+    overflow: hidden ;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px ;
+    font-weight: 50px;
+    border: none ;
+    outline: none ;
+    color: azure ;
+    padding: 14px 16px ;
+    background-color: inherit ;
+    font-family: "Segoe UI Light" ;
+    font-weight : bold ;
+    margin : 0 ;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red ;
+}
+
+.dropdown-content {
+    display: none ;
+    position: absolute;
+    background-color: azure;
+    min-width: 160px ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) ;
+    z-index: 1 ;
+}
+
+.dropdown-content a {
+    float: none ;
+    color: black ;
+    padding: 12px 16px ;
+    text-decoration: none ;
+    display: block ;
+    text-align: left ;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+p.demo1 {
+    font-family: "Segoe UI Light";
+    position: absolute;
+    left: 664px;
+    width: 120px;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #C3073F;
+    padding-top: 10px;
+}
+
+p.demo1 a {
+    text-decoration: none;
+    color: #272727;
+    position: relative;
+}
